@@ -1,0 +1,48 @@
+{
+  "name": "miscible",
+  "version": "1.0.0",
+  "description": "A tool for managing JavaScript projects with multiple packages.",
+  "keywords": [
+    "miscible",
+    "multi-package"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "NUtthapat Piasangka",
+    "email": "nutthapat.psk26@gmail.com"
+  },
+  "bin": {
+    "miscible": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miscible/miscible.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "dedent": "^0.7.0",
+    "execa": "^1.0.0",
+    "find-up": "^3.0.0",
+    "fs-extra": "^7.0.0",
+    "import-local": "^1.0.0",
+    "npm-package-arg": "^6.1.0",
+    "npmlog": "^4.1.2",
+    "p-map": "^2.0.0",
+    "pacote": "^9.2.3",
+    "semver": "^5.6.0",
+    "tempy": "^0.2.1",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
